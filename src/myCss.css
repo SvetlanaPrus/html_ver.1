@@ -1,0 +1,103 @@
+.page {
+    margin: 20px 400px 20px 50px;
+    background-color: lavender;
+    padding-bottom: 20px;
+    border: mediumpurple solid 1px;
+}
+/* Knopki: */
+nav li {
+    border: 2px darkviolet solid;
+    display: inline-block;                  /* knopki vistraivajutsja gorizontalno v liniju */
+    background-color: darkviolet;
+    width: 6rem;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav a {                                 /* oblast knopki s tekstom */
+    border: 2px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav a:hover{
+    background-color: white;
+    color: darkviolet;
+}
+
+h1{
+    color: darkviolet;
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.pp {
+    padding-left: 20px;
+    padding-right: 3px;
+}
+
+#content {
+    position: relative;
+}
+#content img {
+    width: 225px;
+    height: 183px;
+    position: fixed;
+    top: 60px;
+    right: 455px;
+    background-color: lavender;
+}
+
+#homeBottom {
+    background-color: bisque;
+    border-left: mediumpurple solid 3px;
+    padding-bottom: 60px;
+}
+
+blockquote {
+    background-color: white;
+    border-left: darkviolet solid 8px;
+    margin-left: 20px;
+    margin-right: 45px;
+    padding: 1px;
+}
+
+blockquote img{
+    margin-top: 50px;
+}
+
+#logoHTML {
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+    margin-right: -25px;
+}
+
+.float {
+    float: right;
+    margin: 0px 0px 0px 1px;
+}
+
+
+#logoCSS {
+    margin-top: -60px;
+    margin-right: 5px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    /*display: block;*/
+}
+
+
+
